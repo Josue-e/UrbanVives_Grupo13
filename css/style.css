@@ -103,7 +103,7 @@ h1 {
 /*banner*/
 
 #banner_inicial {
-    background-image: url(/img/dave-smith-epNphljdF84-unsplash.jpg);
+    background-image: url(../img/dave-smith-epNphljdF84-unsplash.jpg);
     background-color: #00000056;
     background-size: cover;
     width: 100%;
@@ -352,7 +352,7 @@ footer{
 }
 
 #banner_inicial_catalogo {
-    background-image: url(/img/banner_\ catalogo.png);
+    background-image: url(../img/banner_\ catalogo.png);
     background-color: #00000056;
     background-size: cover;
     width: 100%;
