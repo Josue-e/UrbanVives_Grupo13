@@ -738,7 +738,13 @@ header nav {
     visibility: hidden;
   }
   
-   .menu_header {
+   .formocultar.ocultar2 {
+    opacity: 0;
+    visibility: hidden;
+   }
+  
+  
+  .menu_header {
     display: flex;
     justify-content: space-around;
     padding: 1rem;

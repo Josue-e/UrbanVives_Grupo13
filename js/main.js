@@ -24,6 +24,19 @@ cerrar.addEventListener("click", () => {
 })
 
 
+// ocultar formulario cuando se activa el menu en mobile
+const formocultar = document.querySelector(".formocultar");
+
+
+abrir.addEventListener("click", () => {
+    formocultar.classList.add("ocultar2");
+})
+
+cerrar.addEventListener("click", () => {
+        formocultar.remove("ocultar2");
+})
+
+
 // validacion email pagina contacto, muestra mensaje de error solo si no es valido el formato
 
 document.getElementById("miFormulario").addEventListener("submit", function (e) {
